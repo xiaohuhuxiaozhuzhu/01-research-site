@@ -1,0 +1,10 @@
+{
+  "name": "ai-research-digest-site",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Static bilingual research site for AI Research Digest",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/preview.mjs"
+  }
+}

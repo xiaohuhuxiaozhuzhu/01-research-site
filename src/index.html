@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AI Research Digest turns research workflows into source-linked, bilingual briefs for overseas researchers.">
+  <meta property="og:title" content="AI Research Digest | Research workflows with a quality gate">
+  <meta property="og:description" content="Source-linked research briefs for people working with AI, politics, and emerging technology.">
+  <meta property="og:type" content="website">
+  <title>AI Research Digest | Research workflows with a quality gate</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">AR</span><span>AI Research Digest</span></a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#library">Digest library</a><a href="#workflow">Workflow</a><a href="methodology.html">Methodology</a>
+      <button class="lang-toggle" type="button" data-lang-toggle aria-label="Switch language">中文 / EN</button>
+    </nav>
+  </header>
+  <main>
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">RESEARCH WORKFLOW / SOURCE-LINKED / BILINGUAL</p>
+        <h1><span data-en>Read the signal.<br><em>Keep the source.</em></span><span data-zh>读懂研究信号，<br><em>保留证据链。</em></span></h1>
+        <p class="hero-lede" data-en>AI Research Digest turns dense papers into structured, reviewable briefs for people working with AI, politics, and emerging technology.</p>
+        <p class="hero-lede" data-zh>AI Research Digest 将复杂论文整理为结构化、可复核的研究简报，服务于 AI、政治与新兴技术领域的研究者。</p>
+        <div class="hero-actions"><a class="button button-dark" href="#library">Explore the library <span aria-hidden="true">-></span></a><a class="text-link" href="#workflow">See the workflow <span aria-hidden="true">-></span></a></div>
+        <p class="demo-note"><span class="status-dot"></span>MVP preview - sample records are clearly marked</p>
+      </div>
+      <div class="hero-visual" aria-label="Research pipeline preview">
+        <div class="signal-card"><div class="signal-top"><span>RESEARCH SIGNAL</span><span class="signal-live">DEMO</span></div><div class="signal-line"><span class="line-point p1"></span><span class="line-point p2"></span><span class="line-point p3"></span><span class="line-point p4"></span><span class="line-point p5"></span></div><div class="signal-labels"><span>source</span><span>claim</span><span>method</span><span>limit</span><span>use</span></div><div class="signal-bottom"><strong>3</strong><span>structured briefs<br>ready to inspect</span></div></div>
+        <div class="quote-card"><span class="quote-mark">&ldquo;</span><p>Good summaries preserve uncertainty instead of hiding it.</p><small>EDITORIAL PRINCIPLE / 01</small></div>
+      </div>
+    </section>
+    <section class="proof-band section-shell" aria-label="Product principles"><div><span class="proof-index">01</span><strong>Traceable</strong><p>Every brief starts with a public source.</p></div><div><span class="proof-index">02</span><strong>Structured</strong><p>Question, method, finding, limitation.</p></div><div><span class="proof-index">03</span><strong>Reviewable</strong><p>A quality gate sits before distribution.</p></div></section>
+    <section id="library" class="section-shell library-section"><div class="section-heading"><div><p class="eyebrow">DIGEST LIBRARY</p><h2>Recent research, made legible.</h2></div><a class="text-link" href="digest.html">Open full library <span aria-hidden="true">-></span></a></div><div class="library-controls"><label class="search-box"><span aria-hidden="true">/</span><input data-search type="search" placeholder="Search a topic, method, or question" aria-label="Search digests"></label><div class="filter-row" data-filters><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="AI governance">AI governance</button><button class="filter" data-filter="AI and politics">AI and politics</button><button class="filter" data-filter="Research workflow">Research workflow</button></div></div><div class="digest-grid" data-digest-grid></div></section>
+    <section id="workflow" class="workflow-section"><div class="section-shell workflow-grid"><div class="workflow-copy"><p class="eyebrow">THE PRODUCT LOOP</p><h2>From paper to a decision-ready brief.</h2><p>Retrieval, extraction, rewrite, review, and distribution are separate handoffs. That makes the workflow easier to inspect, improve, and explain in an interview.</p><ol class="workflow-list"><li><span>01</span><div><strong>Retrieve</strong><p>Start with a source and its metadata.</p></div></li><li><span>02</span><div><strong>Make the claim visible</strong><p>Separate the author's finding from editorial interpretation.</p></div></li><li><span>03</span><div><strong>Gate quality</strong><p>Flag unsupported claims, missing links, and overconfident language.</p></div></li></ol><a class="button button-outline" href="methodology.html">Read the methodology</a></div><div class="workflow-art"><img src="assets/paper-pipeline.png" alt="Research digest pipeline from paper to published brief"><div class="art-caption"><span>LOCAL MVP / PIPELINE MAP</span><span>Source -> Digest -> Review</span></div></div></div></section>
+    <section class="evidence-section section-shell"><div class="section-heading"><div><p class="eyebrow">WHY THIS EXISTS</p><h2>Research should stay inspectable.</h2></div><p class="section-note">The product is designed around the moment a researcher needs to verify a sentence, not only skim one.</p></div><div class="evidence-grid"><figure><img src="assets/paper-evidence-1.png" alt="Example research evidence view"><figcaption>Evidence stays close to the brief.</figcaption></figure><figure><img src="assets/paper-result.png" alt="Example structured research result"><figcaption>Results are separated from interpretation.</figcaption></figure></div></section>
+    <section class="cta-section section-shell"><div><p class="eyebrow">BUILDING IN PUBLIC</p><h2>One product. Eight ways to make the work visible.</h2><p>AI Research Digest is the mother product behind the site, evaluation kit, agent workflow, SQL teardown, and overseas distribution experiments.</p></div><a class="button button-dark" href="https://github.com/xiaohuhuxiaozhuzhu" target="_blank" rel="noreferrer">View GitHub <span aria-hidden="true">-></span></a></section>
+  </main>
+  <footer class="site-footer section-shell"><span>AI Research Digest - MVP 0.1</span><span>Public sample content - Verify before reuse</span></footer>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

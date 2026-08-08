@@ -1,0 +1,16 @@
+# AI Research Digest
+
+AI Research Digest is a source-linked research workflow MVP for overseas researchers.
+
+Primary topic: AI tools and workflows for researchers.
+Editorial pilot: AI and politics, including AI governance, algorithmic governance, AI and international relations, and platform politics.
+
+## Citation policy
+
+Use the source URL shown on each digest page. Treat sample records as editorial demonstrations, not systematic reviews. Separate author findings from editorial synthesis and note limitations.
+
+## Site map
+
+- /: product overview and recent digests
+- /digest.html: searchable digest library
+- /methodology.html: editorial and quality method
