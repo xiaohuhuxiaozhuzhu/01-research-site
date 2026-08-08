@@ -1,4 +1,10 @@
 User-agent: *
 Allow: /
 
+# AI crawler policy: public pages may be read, but no private or unpublished paths are exposed.
+User-agent: GPTBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
 Sitemap: https://example.com/sitemap.xml

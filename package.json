@@ -5,6 +5,7 @@
   "description": "Static bilingual research site for AI Research Digest",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "preview": "node scripts/preview.mjs"
+    "preview": "node scripts/preview.mjs",
+    "seo:check": "node scripts/check_seo.mjs"
   }
 }
