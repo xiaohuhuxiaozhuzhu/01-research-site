@@ -1,16 +1,17 @@
-# 01 · AI Research Digest Research Site
+# 01 - AI Research Digest Research Site
 
 An English-first, bilingual static site for **AI Research Digest**, a research workflow tool for overseas researchers. The primary SEO line is `AI tools and workflows for researchers`; the pilot editorial collection is `AI and politics`.
 
-## What is real in this MVP
+## Included
 
-- Static pages and local digest fixtures are runnable.
-- Sources are public links and are shown on each digest.
-- SEO/GEO files and a keyword/content-cluster template are included.
+- Home, Digest library, single-record detail, and methodology pages
+- Chinese/English toggle, topic filters, search, public source links
+- SEO/GEO files: sitemap, robots, JSON data fixtures, and `llms.txt`
+- Local visual workflow assets showing paper -> evidence -> brief
 
-## What is not claimed yet
+## Truthfulness
 
-GSC impressions, rankings, AI citations, backlinks, and conversions remain `TODO: replace with verified data`. Any fixture chart is labeled `SYNTHETIC DEMO DATA`.
+Sources are public links and records are editorial demonstrations. GSC impressions, rankings, AI citations, backlinks, conversions, and traffic remain `TODO: replace with verified data`.
 
 ## Run
 
@@ -20,6 +21,4 @@ npm run build
 npm run preview
 ```
 
-## Acceptance
-
-`npm run build` writes `dist/`; opening `dist/index.html` shows the bilingual site, digest library, source links, and workflow demo.
+The preview server is available at `http://127.0.0.1:4173` when running locally.
