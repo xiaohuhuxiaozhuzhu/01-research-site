@@ -15,7 +15,8 @@ The interface is more explicit than a typical summary feed. It takes more editor
 ## Evidence
 
 - 10 static routes with structured metadata and SEO checks.
-- 24 local source-linked editorial records targeted by the content architecture.
+- 24 local source-linked editorial records with author/date/evidence/next-action metadata.
+- 20-row GEO observation template, 15 long-form topics, 30 programmatic page candidates, and editorial principles.
 - Compare, Explorer, and case-study pages are runnable locally.
 
 The records and route count are local MVP evidence, not traffic or ranking results.
