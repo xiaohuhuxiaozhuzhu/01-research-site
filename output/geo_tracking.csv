@@ -1,0 +1,6 @@
+query,platform,observed_at,cited,citation_position,brand_mentioned,source_url,notes,status
+AI tools for researchers,ChatGPT,TODO,TODO,TODO,TODO,https://example.com/,Run manually and archive raw answer,TODO: manual GEO observation
+AI governance research workflow,Perplexity,TODO,TODO,TODO,TODO,https://example.com/,Run manually and record cited sources,TODO: manual GEO observation
+AI and politics research questions,Google AI Overviews,TODO,TODO,TODO,TODO,https://example.com/,Run manually; do not infer ranking,TODO: manual GEO observation
+AI summary evaluation rubric,ChatGPT,TODO,TODO,TODO,TODO,https://example.com/,Compare wording and citations only,TODO: manual GEO observation
+bilingual AI research evaluation,Perplexity,TODO,TODO,TODO,TODO,https://example.com/,Record language and citation context,TODO: manual GEO observation
