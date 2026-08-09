@@ -1,0 +1,3 @@
+query,platform,observed_at,country,language,raw_answer_path,cited_urls,citation_position,brand_mentioned,claim_accuracy,caveat_preserved,reviewer,observation_status,data_status
+AI tools for researchers,ChatGPT,TODO,TODO,English,TODO: archive raw answer,TODO: record cited URLs,TODO,TODO,TODO,TODO,TODO,TODO,TODO: replace with verified data
+AI governance research workflow,Perplexity,TODO,TODO,English,TODO: archive raw answer,TODO: record cited URLs,TODO,TODO,TODO,TODO,TODO,TODO,TODO: replace with verified data
