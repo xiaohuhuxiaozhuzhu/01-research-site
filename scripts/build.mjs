@@ -11,7 +11,7 @@ fs.rmSync(dist, { recursive: true, force: true });
 fs.cpSync(src, dist, { recursive: true });
 if (fs.existsSync(publicDir)) fs.cpSync(publicDir, dist, { recursive: true });
 
-const required = ['index.html', 'digest.html', 'methodology.html', 'tools.html', 'politics.html', 'agent.html', 'references.html', 'explorer.html', 'compare.html', 'case-studies.html', 'case-study-literature.html', 'case-study-evidence.html', 'case-study-governance.html', 'case-study-bilingual.html', 'case-study-human-review.html', 'portfolio-evidence.html', 'styles.css', 'data/digests.json', 'robots.txt', 'sitemap.xml', 'llms.txt'];
+const required = ['index.html', 'digest.html', 'methodology.html', 'tools.html', 'agenda.html', 'politics.html', 'agent.html', 'references.html', 'explorer.html', 'compare.html', 'case-studies.html', 'case-study-literature.html', 'case-study-evidence.html', 'case-study-governance.html', 'case-study-bilingual.html', 'case-study-human-review.html', 'portfolio-evidence.html', 'styles.css', 'data/digests.json', 'robots.txt', 'sitemap.xml', 'llms.txt'];
 const missing = required.filter((file) => !fs.existsSync(path.join(dist, file)));
 if (missing.length) throw new Error(`Missing build files: ${missing.join(', ')}`);
 
