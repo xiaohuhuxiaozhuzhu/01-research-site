@@ -8,6 +8,7 @@ An English-first, bilingual static site for **AI Research Digest**, a research w
 - Chinese/English toggle, topic filters, search, public source links
 - SEO/GEO files: sitemap, robots, JSON data fixtures, and `llms.txt`
 - Local visual workflow assets showing paper -> evidence -> brief
+- Product routes: Research Question Explorer, Compare Briefs, and five-part case study page
 
 ## Truthfulness
 
@@ -22,3 +23,5 @@ npm run preview
 ```
 
 The preview server is available at `http://127.0.0.1:4173` when running locally.
+
+Product case study: `docs/case-study.md`.

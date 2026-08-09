@@ -3,7 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const pages = ['index.html', 'digest.html', 'methodology.html', 'tools.html', 'politics.html', 'agent.html', 'references.html'];
+const pages = ['index.html', 'digest.html', 'methodology.html', 'tools.html', 'politics.html', 'agent.html', 'references.html', 'explorer.html', 'compare.html', 'case-studies.html'];
 const errors = [];
 for (const page of pages) {
   const file = path.join(root, 'src', page);
