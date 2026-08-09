@@ -10,4 +10,9 @@
   <url><loc>https://example.com/explorer.html</loc></url>
   <url><loc>https://example.com/compare.html</loc></url>
   <url><loc>https://example.com/case-studies.html</loc></url>
+  <url><loc>https://example.com/case-study-literature.html</loc></url>
+  <url><loc>https://example.com/case-study-evidence.html</loc></url>
+  <url><loc>https://example.com/case-study-governance.html</loc></url>
+  <url><loc>https://example.com/case-study-bilingual.html</loc></url>
+  <url><loc>https://example.com/case-study-human-review.html</loc></url>
 </urlset>
