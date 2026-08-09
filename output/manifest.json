@@ -1,0 +1,25 @@
+{
+  "project": "01-research-site",
+  "generated_at": "2026-08-09T04:56:04.658964+00:00",
+  "input_version": "working-tree fixture snapshot",
+  "data_status": "PUBLIC SAMPLE DATA / SYNTHETIC DEMO DATA; verify before external use",
+  "files": [
+    {
+      "path": "output/geo_tracking.csv",
+      "bytes": 3048,
+      "sha256": "c6e080e33bc234bf8f2c73a0450fd69a44bbefcca81bb00cd60b56f35a2c3db9"
+    },
+    {
+      "path": "output/seo_check_report.md",
+      "bytes": 660,
+      "sha256": "08bacaf0116343173db65bff5170f9cde4363b8d89c7782073140761c802d53e"
+    }
+  ],
+  "verification_commands": [
+    "npm run content:check",
+    "npm run seo:assets",
+    "npm run build",
+    "npm run seo:check"
+  ],
+  "real_data_boundary": "No traffic, user, retention, conversion, platform, legal, or evaluation production result is inferred."
+}
