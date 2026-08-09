@@ -10,6 +10,7 @@ An English-first, bilingual static site for **AI Research Digest**, a research w
 - Local visual workflow assets showing paper -> evidence -> brief
 - Product routes: Research Question Explorer, Compare Briefs, five-part case study page, Portfolio Evidence, PM Interview Evidence, and Overseas Operations Playbook
 - Measurement inputs: `data/sample/gsc_export_template.csv`, `data/sample/geo_observations_template.csv`, and `scripts/validate_measurement_inputs.py` keep future Search Console/GEO exports date-, source-, and reviewer-aware.
+- Measurement intake workspace: `app/measurement_workspace.html` and `scripts/validate_measurement_workspace.py` provide a local draft surface without promoting rows to `VERIFIED`.
 
 ## Truthfulness
 
@@ -33,6 +34,13 @@ py -3 scripts/validate_public_arxiv.py --input output/public_arxiv_metadata.json
 ```
 
 The output carries collection time, query, schema, terms TODO, and human-owner fields. It is public reference metadata, not verified editorial evidence.
+
+Measurement workspace (template-only):
+
+```powershell
+py -3 scripts/render_measurement_workspace.py --gsc data/sample/gsc_export_template.csv --geo data/sample/geo_observations_template.csv --output app/measurement_workspace.html
+py -3 scripts/validate_measurement_workspace.py --html app/measurement_workspace.html --gsc data/sample/gsc_export_template.csv --geo data/sample/geo_observations_template.csv --output output/measurement_workspace_report.md
+```
 
 Product case study: `docs/case-study.md`.
 Research agenda: `docs/research-agenda.md` lists 12 source-linked planning questions; `agenda.html` exposes them as a navigable local route.

@@ -1,6 +1,6 @@
 {
   "project": "01-research-site",
-  "generated_at": "2026-08-09T13:42:31.153364+00:00",
+  "generated_at": "2026-08-09T14:24:45.150844+00:00",
   "input_version": "working-tree fixture snapshot",
   "data_status": "PUBLIC SAMPLE DATA / SYNTHETIC DEMO DATA; verify before external use",
   "files": [
@@ -13,6 +13,11 @@
       "path": "output/measurement_input_report.md",
       "bytes": 469,
       "sha256": "19fe32689c1f5b15a62ab62fca429514ee2fa1fe9f9a11bef2bc82a0cdedf0e6"
+    },
+    {
+      "path": "output/measurement_workspace_report.md",
+      "bytes": 337,
+      "sha256": "db8edbc7ed558ba71fed4318347072bb433818f5ebe50babf1c9f515f3110879"
     },
     {
       "path": "output/public_arxiv_metadata.json",
