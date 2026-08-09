@@ -8,7 +8,7 @@ An English-first, bilingual static site for **AI Research Digest**, a research w
 - Chinese/English toggle, topic filters, search, public source links
 - SEO/GEO files: sitemap, robots, JSON data fixtures, and `llms.txt`
 - Local visual workflow assets showing paper -> evidence -> brief
-- Product routes: Research Question Explorer, Compare Briefs, and five-part case study page
+- Product routes: Research Question Explorer, Compare Briefs, five-part case study page, Portfolio Evidence, PM Interview Evidence, and Overseas Operations Playbook
 
 ## Truthfulness
 

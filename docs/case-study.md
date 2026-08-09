@@ -14,7 +14,7 @@ The interface is more explicit than a typical summary feed. It takes more editor
 
 ## Evidence
 
-- 10 static routes with structured metadata and SEO checks.
+- 19 static routes with structured metadata and SEO checks, including portfolio evidence, PM interview, and overseas operations pages.
 - 24 local source-linked editorial records with author/date/evidence/next-action metadata.
 - 20-row GEO observation template, 15 long-form topics, 30 programmatic page candidates, and editorial principles.
 - Compare, Explorer, and case-study pages are runnable locally.
