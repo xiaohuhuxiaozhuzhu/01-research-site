@@ -25,3 +25,4 @@ npm run preview
 The preview server is available at `http://127.0.0.1:4173` when running locally.
 
 Product case study: `docs/case-study.md`.
+Editorial governance: `docs/editorial_principles.md`; outreach drafts: `docs/outreach_templates.md`.

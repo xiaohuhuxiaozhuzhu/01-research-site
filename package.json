@@ -8,6 +8,7 @@
     "preview": "node scripts/preview.mjs",
     "seo:check": "node scripts/check_seo.mjs",
     "content:enrich": "node scripts/enrich_digests.mjs",
-    "content:check": "node scripts/validate_content_pack.mjs"
+    "content:check": "node scripts/validate_content_pack.mjs",
+    "seo:assets": "node scripts/validate_seo_assets.mjs"
   }
 }
