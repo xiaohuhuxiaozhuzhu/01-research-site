@@ -24,6 +24,16 @@ npm run preview
 
 The preview server is available at `http://127.0.0.1:4173` when running locally.
 
+Public metadata smoke test (read-only, bounded):
+
+```powershell
+py -3 scripts/collect_public_arxiv.py --query "AI governance" --limit 6 --output output/public_arxiv_metadata.json --live
+py -3 scripts/validate_public_arxiv.py --input output/public_arxiv_metadata.json
+```
+
+The output carries collection time, query, schema, terms TODO, and human-owner fields. It is public reference metadata, not verified editorial evidence.
+
 Product case study: `docs/case-study.md`.
 Research agenda: `docs/research-agenda.md` lists 12 source-linked planning questions; `agenda.html` exposes them as a navigable local route.
 Editorial governance: `docs/editorial_principles.md`; outreach drafts: `docs/outreach_templates.md`.
+Public metadata handoff: `scripts/collect_public_arxiv.py` and `scripts/validate_public_arxiv.py` create a bounded, provenance-labelled arXiv metadata sample. Live mode is read-only and does not replace editorial verification.

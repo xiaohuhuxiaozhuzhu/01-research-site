@@ -1,0 +1,18 @@
+{
+  "data_status": "PUBLIC REFERENCE DATA / TODO HUMAN REVIEW",
+  "source": "arXiv public API metadata only",
+  "source_url": "https://export.arxiv.org/api/query?search_query=all%3AAI+governance&start=0&max_results=6",
+  "query": "AI governance",
+  "collected_at": "2026-08-09T08:10:28.749153+00:00",
+  "region": "global",
+  "schema_version": "arxiv-metadata-v1",
+  "field_definitions": "docs/public_metadata_collection.md",
+  "license_or_consent": "Public API response; verify arXiv terms and each source license before reuse",
+  "sample_size": "up to 6 records; first page only",
+  "calculation": "No performance or research metric calculated; metadata is an editorial discovery input",
+  "verification_owner": "TODO: human editor",
+  "live_request": false,
+  "request_status": "DRY_RUN",
+  "error": "",
+  "records": []
+}

@@ -1,0 +1,97 @@
+{
+  "data_status": "PUBLIC REFERENCE DATA / TODO HUMAN REVIEW",
+  "source": "arXiv public API metadata only",
+  "source_url": "https://export.arxiv.org/api/query?search_query=all%3AAI+governance&start=0&max_results=6",
+  "query": "AI governance",
+  "collected_at": "2026-08-09T08:12:05.608120+00:00",
+  "region": "global",
+  "schema_version": "arxiv-metadata-v1",
+  "field_definitions": "docs/public_metadata_collection.md",
+  "license_or_consent": "Public API response; verify arXiv terms and each source license before reuse",
+  "sample_size": "up to 6 records; first page only",
+  "calculation": "No performance or research metric calculated; metadata is an editorial discovery input",
+  "verification_owner": "TODO: human editor",
+  "live_request": true,
+  "request_status": "OK",
+  "error": "",
+  "records": [
+    {
+      "id": "http://arxiv.org/abs/2510.11595v1",
+      "title": "Reproducibility: The New Frontier in AI Governance",
+      "authors": [
+        "Israel Mason-Williams",
+        "Gabryel Mason-Williams"
+      ],
+      "published": "2025-10-13T16:34:25Z",
+      "updated": "2025-10-13T16:34:25Z",
+      "primary_category": "cs.AI",
+      "source_url": "https://arxiv.org/abs/2510.11595v1"
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.05163v1",
+      "title": "Open Problems in AI Incident Governance",
+      "authors": [
+        "Harleen Kaur Sidhu",
+        "Rebecca Scholefield",
+        "Nour Annan",
+        "Kevin Hernandez",
+        "Isabel Nieh Hou",
+        "Abdulrahman Alshaikhi",
+        "Ze Shen Chin",
+        "Rokas Gipiškis"
+      ],
+      "published": "2026-07-06T14:46:49Z",
+      "updated": "2026-07-06T14:46:49Z",
+      "primary_category": "cs.CY",
+      "source_url": "https://arxiv.org/abs/2607.05163v1"
+    },
+    {
+      "id": "http://arxiv.org/abs/2504.12358v1",
+      "title": "Towards an AI Observatory for the Nuclear Sector: A tool for anticipatory governance",
+      "authors": [
+        "Aditi Verma",
+        "Elizabeth Williams"
+      ],
+      "published": "2025-04-16T03:43:15Z",
+      "updated": "2025-04-16T03:43:15Z",
+      "primary_category": "cs.CY",
+      "source_url": "https://arxiv.org/abs/2504.12358v1"
+    },
+    {
+      "id": "http://arxiv.org/abs/2601.17191v1",
+      "title": "The Global Majority in International AI Governance",
+      "authors": [
+        "Chinasa T. Okolo",
+        "Mubarak Raji"
+      ],
+      "published": "2026-01-23T21:43:33Z",
+      "updated": "2026-01-23T21:43:33Z",
+      "primary_category": "cs.CY",
+      "source_url": "https://arxiv.org/abs/2601.17191v1"
+    },
+    {
+      "id": "http://arxiv.org/abs/2307.03198v2",
+      "title": "A multilevel framework for AI governance",
+      "authors": [
+        "Hyesun Choung",
+        "Prabu David",
+        "John S. Seberger"
+      ],
+      "published": "2023-07-04T03:59:16Z",
+      "updated": "2023-07-13T00:27:55Z",
+      "primary_category": "cs.CY",
+      "source_url": "https://arxiv.org/abs/2307.03198v2"
+    },
+    {
+      "id": "http://arxiv.org/abs/2604.03262v1",
+      "title": "AI Governance Control Stack for Operational Stability: Achieving Hardened Governance in AI Systems",
+      "authors": [
+        "Horatio Morgan"
+      ],
+      "published": "2026-03-12T19:01:42Z",
+      "updated": "2026-03-12T19:01:42Z",
+      "primary_category": "cs.CY",
+      "source_url": "https://arxiv.org/abs/2604.03262v1"
+    }
+  ]
+}
