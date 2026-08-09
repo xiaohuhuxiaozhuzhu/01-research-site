@@ -1,6 +1,6 @@
 {
   "project": "01-research-site",
-  "generated_at": "2026-08-09T08:32:28.560925+00:00",
+  "generated_at": "2026-08-09T12:50:12.301644+00:00",
   "input_version": "working-tree fixture snapshot",
   "data_status": "PUBLIC SAMPLE DATA / SYNTHETIC DEMO DATA; verify before external use",
   "files": [
@@ -8,6 +8,11 @@
       "path": "output/geo_tracking.csv",
       "bytes": 3048,
       "sha256": "c6e080e33bc234bf8f2c73a0450fd69a44bbefcca81bb00cd60b56f35a2c3db9"
+    },
+    {
+      "path": "output/measurement_input_report.md",
+      "bytes": 469,
+      "sha256": "19fe32689c1f5b15a62ab62fca429514ee2fa1fe9f9a11bef2bc82a0cdedf0e6"
     },
     {
       "path": "output/public_arxiv_metadata.json",
