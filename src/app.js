@@ -73,6 +73,11 @@ function compareMarkup(left, right) {
 function setupExplorer(digests) {
   const controls = { task: document.querySelector('[data-explorer-task]'), audience: document.querySelector('[data-explorer-audience]'), time: document.querySelector('[data-explorer-time]') };
   if (!controls.task) return;
+  const params = new URLSearchParams(window.location.search);
+  Object.entries(controls).forEach(([key, control]) => {
+    const requested = params.get(key);
+    if (requested && [...control.options].some((option) => option.value === requested)) control.value = requested;
+  });
   Object.values(controls).forEach((control) => control.addEventListener('change', () => renderExplorer(digests, controls)));
   renderExplorer(digests, controls);
 }
