@@ -1,9 +1,14 @@
 {
   "project": "01-research-site",
-  "generated_at": "2026-08-10T06:18:01.728944+00:00",
+  "generated_at": "2026-08-10T10:34:24.079653+00:00",
   "input_version": "working-tree fixture snapshot",
   "data_status": "PUBLIC SAMPLE DATA / SYNTHETIC DEMO DATA; verify before external use",
   "files": [
+    {
+      "path": "output/content_release_readiness.md",
+      "bytes": 4699,
+      "sha256": "e7dfd3764a49a079af991d6a4c7ebb13861bf9f36a0341ec38247c1d23ac2757"
+    },
     {
       "path": "output/decision_readouts_check.md",
       "bytes": 741,
