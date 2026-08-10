@@ -8,7 +8,7 @@ An English-first, bilingual static site for **AI Research Digest**, a research w
 - Chinese/English toggle, topic filters, search, public source links
 - SEO/GEO files: sitemap, robots, JSON data fixtures, and `llms.txt`
 - Local visual workflow assets showing paper -> evidence -> brief
-- Product routes: Research Question Explorer, Compare Briefs, five-part case study page, Portfolio Evidence, PM Interview Evidence, and Overseas Operations Playbook
+- Product routes: Research Question Explorer, Compare Briefs, five-part case study page, Portfolio Evidence, PM Interview Evidence, Overseas Operations Playbook, and the cross-project Decision Readout Index
 - Measurement inputs: `data/sample/gsc_export_template.csv`, `data/sample/geo_observations_template.csv`, and `scripts/validate_measurement_inputs.py` keep future Search Console/GEO exports date-, source-, and reviewer-aware.
 - Measurement intake workspace: `app/measurement_workspace.html` and `scripts/validate_measurement_workspace.py` provide a local draft surface without promoting rows to `VERIFIED`.
 

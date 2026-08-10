@@ -14,3 +14,5 @@ Use the source URL shown on each digest page. Treat sample records as editorial 
 - /: product overview and recent digests
 - /digest.html: searchable digest library
 - /methodology.html: editorial and quality method
+- /portfolio-evidence.html: eight-project evidence map
+- /decision-readouts.html: product decision readouts for EvalKit, Social Lab, Digest Agent, SQL teardown, and ad compliance
