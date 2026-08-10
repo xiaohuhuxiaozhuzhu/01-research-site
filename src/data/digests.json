@@ -982,5 +982,173 @@
     "evidenceLevel": "public-source / editorial synthesis",
     "nextAction": "Human editor verifies source, limitation, and audience fit before publication.",
     "contentStatus": "EDITORIAL DEMO / HUMAN REVIEW REQUIRED"
+  },
+  {
+    "id": "political-bias-llms",
+    "date": "2026-08-10",
+    "topic": "AI and politics",
+    "series": "Politics reading room",
+    "readTime": "7 min",
+    "audience": "Political communication and AI researchers",
+    "title": "Compare political-bias evaluations without treating one prompt as public opinion",
+    "titleZh": "比较语言模型政治偏差评测，不把单个提示当成公众意见",
+    "source": "https://arxiv.org/abs/2412.16746",
+    "sourceLabel": "Public source: Beyond Partisan Leaning (arXiv:2412.16746)",
+    "sourceStatus": "PUBLIC SOURCE / EDITORIAL DEMO",
+    "question": "What should a product team preserve when evaluating political behavior in a language model?",
+    "questionZh": "评测语言模型政治行为时，产品团队应该保留什么？",
+    "method": "Editorial synthesis separating topic selection, prompt framing, model behavior, and the limits of generalizing to public opinion.",
+    "methodZh": "将议题选择、提示框架、模型行为与向公众意见外推的边界分开的编辑性综合。",
+    "finding": "A political-bias evaluation is a measurement design, not a referendum. The brief should expose topic coverage, prompt framing, comparison unit, and uncertainty before a reader interprets a difference as an ideological position.",
+    "findingZh": "政治偏差评测首先是测量设计，而不是公投；简报应在读者把差异解释为意识形态立场前，展示议题覆盖、提示框架、比较单位和不确定性。",
+    "limitation": "The source studies model behavior; this editorial brief does not establish a model ranking or a public-opinion claim.",
+    "limitationZh": "来源研究的是模型行为；本编辑简报不建立模型排名，也不代表公众意见。",
+    "takeaways": [
+      "Name the comparison unit.",
+      "Separate behavior from public opinion.",
+      "Show prompt and topic coverage."
+    ],
+    "tags": [
+      "AI and politics",
+      "political bias",
+      "evaluation"
+    ],
+    "related": [
+      "platform-politics-evidence",
+      "quality-gates-bilingual"
+    ],
+    "author": "AI Research Digest editorial demo",
+    "authorStatus": "SYNTHETIC DEMO DATA",
+    "datePublished": "2026-08-10",
+    "dateModified": "2026-08-10",
+    "evidenceLevel": "public-source / editorial synthesis",
+    "nextAction": "Human editor verifies source, limitation, and audience fit before publication.",
+    "contentStatus": "EDITORIAL DEMO / HUMAN REVIEW REQUIRED"
+  },
+  {
+    "id": "ai-election-campaigns",
+    "date": "2026-08-10",
+    "topic": "AI and politics",
+    "series": "Politics reading room",
+    "readTime": "7 min",
+    "audience": "Political communication and policy researchers",
+    "title": "Separate campaign assistance from deceptive synthetic media",
+    "titleZh": "区分竞选辅助工具与欺骗性合成媒体",
+    "source": "https://arxiv.org/abs/2408.12613",
+    "sourceLabel": "Public source: AI in Election Campaigns (arXiv:2408.12613)",
+    "sourceStatus": "PUBLIC SOURCE / EDITORIAL DEMO",
+    "question": "How should a research brief describe AI use in campaigns without collapsing different risk levels?",
+    "questionZh": "如何描述竞选中的 AI 使用，而不把不同风险层级混为一谈？",
+    "method": "Editorial mapping from campaign operations, voter outreach, and deceptive use to claim scope, evidence type, and review owner.",
+    "methodZh": "将竞选运营、选民触达和欺骗性使用映射到论断范围、证据类型和审核负责人。",
+    "finding": "The same word “AI in campaigns” can hide very different activities and public reactions. A useful product surface separates assistance, persuasion, and deception, then marks which statement comes from the study and which is an editorial implication.",
+    "findingZh": "“竞选中的 AI”可能掩盖性质不同的活动和公众反应；有用的产品界面应区分辅助、说服和欺骗，并标注哪些是研究发现、哪些是编辑推论。",
+    "limitation": "The source reports specific study populations and designs; it does not support a universal prediction about every election or country.",
+    "limitationZh": "来源只覆盖特定研究对象和设计，不能支持对所有选举或国家的普遍预测。",
+    "takeaways": [
+      "Separate use cases.",
+      "Keep population and design visible.",
+      "Escalate deception claims."
+    ],
+    "tags": [
+      "AI and politics",
+      "elections",
+      "risk"
+    ],
+    "related": [
+      "ai-act-risk-language",
+      "policy-review-queue"
+    ],
+    "author": "AI Research Digest editorial demo",
+    "authorStatus": "SYNTHETIC DEMO DATA",
+    "datePublished": "2026-08-10",
+    "dateModified": "2026-08-10",
+    "evidenceLevel": "public-source / editorial synthesis",
+    "nextAction": "Human editor verifies source, limitation, and audience fit before publication.",
+    "contentStatus": "EDITORIAL DEMO / HUMAN REVIEW REQUIRED"
+  },
+  {
+    "id": "digital-democracy-ai",
+    "date": "2026-08-10",
+    "topic": "AI and politics",
+    "series": "Politics reading room",
+    "readTime": "6 min",
+    "audience": "Political theory and digital democracy researchers",
+    "title": "Map AI effects on digital democracy by civic function",
+    "titleZh": "按公民功能分析 AI 对数字民主的影响",
+    "source": "https://arxiv.org/abs/2412.07791",
+    "sourceLabel": "Public source: Digital Democracy in the Age of AI (arXiv:2412.07791)",
+    "sourceStatus": "PUBLIC SOURCE / EDITORIAL DEMO",
+    "question": "Which civic function is a digital-democracy claim actually about?",
+    "questionZh": "一条数字民主论断究竟涉及哪种公民功能？",
+    "method": "Editorial frame separating citizenship, participation, representation, and the public sphere before discussing benefits or risks.",
+    "methodZh": "在讨论收益或风险前，先区分公民身份、参与、代表和公共领域四种功能。",
+    "finding": "A product brief is clearer when it names the civic function first. The same AI feature may broaden participation while increasing privacy or stereotyping risk, so a single “democracy impact” label is too coarse for a decision.",
+    "findingZh": "先说清公民功能能让产品简报更清晰；同一 AI 功能可能扩大参与，也可能增加隐私或刻板化风险，因此单一“民主影响”标签过于粗糙。",
+    "limitation": "This is a conceptual reading aid and does not measure a platform or civic outcome.",
+    "limitationZh": "这是概念性阅读辅助，不测量具体平台或公民结果。",
+    "takeaways": [
+      "Name the civic function.",
+      "Keep benefit and risk paired.",
+      "Avoid one-dimensional impact labels."
+    ],
+    "tags": [
+      "AI and politics",
+      "digital democracy",
+      "civic technology"
+    ],
+    "related": [
+      "ai-democracy-upgrade",
+      "platform-politics-reading"
+    ],
+    "author": "AI Research Digest editorial demo",
+    "authorStatus": "SYNTHETIC DEMO DATA",
+    "datePublished": "2026-08-10",
+    "dateModified": "2026-08-10",
+    "evidenceLevel": "public-source / editorial synthesis",
+    "nextAction": "Human editor verifies source, limitation, and audience fit before publication.",
+    "contentStatus": "EDITORIAL DEMO / HUMAN REVIEW REQUIRED"
+  },
+  {
+    "id": "ai-democracy-upgrade",
+    "date": "2026-08-10",
+    "topic": "AI and politics",
+    "series": "Politics reading room",
+    "readTime": "6 min",
+    "audience": "Democracy and technology researchers",
+    "title": "Keep democratic upgrade and authoritarian risk as competing hypotheses",
+    "titleZh": "把民主升级与威权风险保留为竞争性假设",
+    "source": "https://arxiv.org/abs/2504.01034",
+    "sourceLabel": "Public source: AI and Democracy (arXiv:2504.01034)",
+    "sourceStatus": "PUBLIC SOURCE / EDITORIAL DEMO",
+    "question": "How can a digest discuss AI and democracy without turning a forecast into a fact?",
+    "questionZh": "如何讨论 AI 与民主，而不把预测写成事实？",
+    "method": "Editorial comparison of democratic-upgrade and digital-authoritarianism hypotheses with explicit mechanism and uncertainty fields.",
+    "methodZh": "通过明确机制和不确定性字段，对民主升级与数字威权两种假设进行编辑性比较。",
+    "finding": "The useful product decision is to keep both mechanisms visible and ask what evidence would distinguish them. A balanced frame is not false equivalence: it is a prompt to specify actors, institutions, time horizon, and observable consequences.",
+    "findingZh": "有用的产品决策是同时展示两种机制，并明确什么证据可以区分它们；平衡框架不是假装两者等价，而是要求说明主体、制度、时间范围和可观察后果。",
+    "limitation": "The brief is a reading map and cannot predict a country-level democratic trajectory.",
+    "limitationZh": "该简报是阅读地图，不能预测某个国家的民主走向。",
+    "takeaways": [
+      "State competing mechanisms.",
+      "Ask what would falsify each.",
+      "Keep forecasts conditional."
+    ],
+    "tags": [
+      "AI and politics",
+      "democracy",
+      "governance"
+    ],
+    "related": [
+      "digital-democracy-ai",
+      "nistu-ai-risk-intake"
+    ],
+    "author": "AI Research Digest editorial demo",
+    "authorStatus": "SYNTHETIC DEMO DATA",
+    "datePublished": "2026-08-10",
+    "dateModified": "2026-08-10",
+    "evidenceLevel": "public-source / editorial synthesis",
+    "nextAction": "Human editor verifies source, limitation, and audience fit before publication.",
+    "contentStatus": "EDITORIAL DEMO / HUMAN REVIEW REQUIRED"
   }
 ]
