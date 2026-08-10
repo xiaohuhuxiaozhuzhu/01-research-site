@@ -122,6 +122,41 @@ function setupControls(digests) {
   renderLibrary(digests);
 }
 
+function setupDecisionReadouts() {
+  const filter = document.querySelector('[data-readout-filter]');
+  const cards = [...document.querySelectorAll('[data-readout-card]')];
+  const summaries = [...document.querySelectorAll('[data-readout-summary]')];
+  if (!filter || !cards.length) return;
+  const requestedLane = new URLSearchParams(window.location.search).get('lane');
+  if (requestedLane && [...filter.options].some((option) => option.value === requestedLane)) filter.value = requestedLane;
+  const render = () => {
+    const lane = filter.value;
+    let shown = 0;
+    cards.forEach((card) => {
+      const visible = lane === 'all' || card.dataset.lane === lane;
+      card.hidden = !visible;
+      if (visible) shown += 1;
+    });
+    const labels = {
+      all: ['Showing all seven readouts.', '显示全部七条复盘。'],
+      measure: [`${shown} measure readout${shown === 1 ? '' : 's'} shown.`, `显示 ${shown} 条度量复盘。`],
+      operate: [`${shown} operate readout${shown === 1 ? '' : 's'} shown.`, `显示 ${shown} 条运营复盘。`],
+      govern: [`${shown} govern readout${shown === 1 ? '' : 's'} shown.`, `显示 ${shown} 条治理复盘。`],
+    }[lane] || ['Showing all seven readouts.', '显示全部七条复盘。'];
+    summaries.forEach((summary) => {
+      summary.textContent = summary.dataset.en !== undefined ? labels[0] : labels[1];
+    });
+  };
+  filter.addEventListener('change', () => {
+    const url = new URL(window.location.href);
+    if (filter.value === 'all') url.searchParams.delete('lane');
+    else url.searchParams.set('lane', filter.value);
+    window.history.replaceState({}, '', url);
+    render();
+  });
+  render();
+}
+
 function setupLanguage() {
   const saved = localStorage.getItem('ard-lang') || 'en';
   document.documentElement.dataset.lang = saved;
@@ -156,3 +191,4 @@ fetch('data/digests.json').then((response) => response.json()).then((digests) =>
 });
 setupLanguage();
 setupAgentDemo();
+setupDecisionReadouts();
