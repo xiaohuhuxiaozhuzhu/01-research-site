@@ -43,6 +43,12 @@ py -3 scripts/render_measurement_workspace.py --gsc data/sample/gsc_export_templ
 py -3 scripts/validate_measurement_workspace.py --html app/measurement_workspace.html --gsc data/sample/gsc_export_template.csv --geo data/sample/geo_observations_template.csv --output output/measurement_workspace_report.md
 ```
 
+Decision Readout smoke check:
+
+```powershell
+npm run readouts:check
+```
+
 Product case study: `docs/case-study.md`.
 Research agenda: `docs/research-agenda.md` lists 12 source-linked planning questions; `agenda.html` exposes them as a navigable local route.
 Editorial governance: `docs/editorial_principles.md`; outreach drafts: `docs/outreach_templates.md`.
