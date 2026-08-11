@@ -11,6 +11,28 @@ fs.rmSync(dist, { recursive: true, force: true });
 fs.cpSync(src, dist, { recursive: true });
 if (fs.existsSync(publicDir)) fs.cpSync(publicDir, dist, { recursive: true });
 
+// Keep local SEO fixtures stable while allowing a deployment to provide its
+// real public origin at build time (for example, GitHub Pages).
+const siteOrigin = (process.env.SITE_ORIGIN || 'https://example.com').replace(/\/+$/, '');
+function rewriteDeploymentMetadata(dir) {
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      rewriteDeploymentMetadata(full);
+      continue;
+    }
+    if (!/\.(html|xml|txt)$/i.test(entry.name)) continue;
+    const source = fs.readFileSync(full, 'utf8');
+    const updated = source
+      .replace(/(rel=["']canonical["'][^>]+href=["'])https:\/\/example\.com/gi, `$1${siteOrigin}`)
+      .replace(/("url"\s*:\s*")https:\/\/example\.com/gi, `$1${siteOrigin}`)
+      .replace(/(<loc>)https:\/\/example\.com/gi, `$1${siteOrigin}`)
+      .replace(/(Sitemap:\s*)https:\/\/example\.com/gi, `$1${siteOrigin}`);
+    if (updated !== source) fs.writeFileSync(full, updated, 'utf8');
+  }
+}
+rewriteDeploymentMetadata(dist);
+
 const required = ['index.html', 'digest.html', 'methodology.html', 'tools.html', 'agenda.html', 'politics.html', 'agent.html', 'references.html', 'explorer.html', 'compare.html', 'case-studies.html', 'case-study-literature.html', 'case-study-evidence.html', 'case-study-governance.html', 'case-study-bilingual.html', 'case-study-human-review.html', 'portfolio-evidence.html', 'decision-readouts.html', 'pm-interview.html', 'ops-playbook.html', 'styles.css', 'data/digests.json', 'robots.txt', 'sitemap.xml', 'llms.txt'];
 const missing = required.filter((file) => !fs.existsSync(path.join(dist, file)));
 if (missing.length) throw new Error(`Missing build files: ${missing.join(', ')}`);
@@ -26,4 +48,4 @@ function walk(dir) {
 walk(dist);
 if (forbidden.length) throw new Error(`Potential secret-like files in build: ${forbidden.join(', ')}`);
 
-console.log(`Built ${required.length} required site files into ${dist}`);
+console.log(`Built ${required.length} required site files into ${dist} (site origin: ${siteOrigin})`);
